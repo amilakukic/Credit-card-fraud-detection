@@ -111,6 +111,8 @@ Given the imbalanced nature of the problem, we focused on:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d617b211-88b6-48b0-8d48-4c9e2ddc35a3" alt="Opis slike"/>
 </p>
+
+
 > ** Note:** Accuracy is not a meaningful metric in this context, as predicting all transactions as legitimate yields 99.8% accuracy but fails to detect fraud.
 
 

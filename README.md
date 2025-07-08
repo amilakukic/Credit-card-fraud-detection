@@ -113,7 +113,7 @@ Given the imbalanced nature of the problem, we focused on:
 </p>
 
 
-> ** Note:** Accuracy is not a meaningful metric in this context, as predicting all transactions as legitimate yields 99.8% accuracy but fails to detect fraud.
+> **Note:** Accuracy is not a meaningful metric in this context, as predicting all transactions as legitimate yields 99.8% accuracy but fails to detect fraud.
 
 
 ## Key Takeaways

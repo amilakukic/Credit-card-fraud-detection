@@ -59,6 +59,9 @@ Given the imbalanced nature of the problem, we focused on:
 
 ## Results Summary
 
+![image](https://github.com/user-attachments/assets/3137b51c-2005-4cd5-9378-4d70c7b5d99d)
+
+
 | Model             | Dataset        | Best F1-Score | Notes |
 |------------------|----------------|---------------|-------|
 | **XGBoost**       | Imbalanced/SMOTE | > 0.83       | High precision and recall |

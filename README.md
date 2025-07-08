@@ -58,16 +58,22 @@ Given the imbalanced nature of the problem, we focused on:
 - **Accuracy** – Included for reference but not prioritized due to dataset imbalance
 
 ## Results Summary
+## Imbalanced Dataset
 
-![image](https://github.com/user-attachments/assets/3137b51c-2005-4cd5-9378-4d70c7b5d99d)
+| Model                  | Precision | Recall | F1-score |
+|------------------------|-----------|--------|----------|
+| XGBoost                | 0.95      | 0.75   | 0.84     |
+| Random Forest          | 0.99      | 0.72   | 0.83     |
+| KNN (k=3)              | 0.95      | 0.74   | 0.83     |
+| KNN (k=5)              | 0.96      | 0.72   | 0.82     |
+| KNN (k=7)              | 0.94      | 0.69   | 0.80     |
+| Logistic Regression    | 0.83      | 0.73   | 0.78     |
+| SVM                    | 0.87      | 0.76   | 0.81     |
+| Keras Neural Network   | 0.88      | 0.76   | 0.81     |
+| Decision Tree          | 0.76      | 0.69   | 0.73     |
+| MLP (Neural Network)   | 0.82      | 0.58   | 0.68     |
+| Naive Bayes (threshold=0.3) | 0.06 | 0.81   | 0.11     |
 
-
-| Model             | Dataset        | Best F1-Score | Notes |
-|------------------|----------------|---------------|-------|
-| **XGBoost**       | Imbalanced/SMOTE | > 0.83       | High precision and recall |
-| **Random Forest** | SMOTE          | > 0.83       | Very balanced performance |
-| **Keras MLP**     | Undersampling  | ~ 0.71       | Best trade-off under undersampling |
-| **Naive Bayes**   | Imbalanced     | 0.105         | High recall, extremely low precision |
 
 > ** Note:** Accuracy is not a meaningful metric in this context, as predicting all transactions as legitimate yields 99.8% accuracy but fails to detect fraud.
 

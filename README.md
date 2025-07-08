@@ -114,7 +114,6 @@ Given the imbalanced nature of the problem, we focused on:
 - **SMOTE balancing** significantly improved fraud detection with reasonable precision.
 - **Undersampling** increased recall but produced many false positives.
 - Ensemble methods like **XGBoost** and **Random Forest** outperformed simpler models.
-- Deep learning approaches (Keras) can offer good performance but require careful tuning.
 
 ## Future Work
 
@@ -131,7 +130,7 @@ To further improve performance:
 
 - [Amila Kukić](https://github.com/amilakukic)
 
-> This project was developed as part of the Artificial Intelligence course at the University of Sarajevo, Faculty of Electrical Engineering.
+> This project was developed as part of the Artificial Intelligence course at the Faculty of Electrical Engineering, University of Sarajevo.
 
 
 © 2025 Sara Kardaš & Amila Kukić
